@@ -57,3 +57,21 @@ body {
     }
   }
 }
+.info-email {
+  font-weight: 600;
+  color: $title;
+  font-size: 14px;
+  margin-bottom: 22px;
+  padding-left: 30px;
+  display: inline-block;
+  position: relative;
+  &::before {
+    background-image: url(../images/envelope.svg);
+    content: "";
+    position: absolute;
+    top: 8px;
+    width: 16px;
+    height: 12px;
+    left: 0;
+  }
+}
